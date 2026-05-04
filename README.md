@@ -154,6 +154,42 @@ npm install react-native-screens@4.16.0 --save-exact
 
 ---
 
+# 🔧 Melhorias Implementadas
+
+As seguintes melhorias foram aplicadas ao projeto após a aula inicial:
+
+## Melhoria 1 — Formatação do preço no padrão brasileiro
+O campo de preço agora formata automaticamente o valor enquanto o usuário digita,
+seguindo o padrão brasileiro (ex: R$ 1.299,99).
+
+**Arquivo alterado:** `src/screens/HomeScreen.js`
+
+## Melhoria 2 — Teclado sobrepondo campos de texto
+Adicionado o componente `KeyboardAvoidingView` nas telas que possuem campos de texto,
+evitando que o teclado sobreponha os inputs em telas menores.
+
+**Arquivos alterados:**
+* `src/screens/HomeScreen.js`
+* `src/screens/LoginScreen.js`
+* `src/screens/RegisterScreen.js`
+* `src/screens/ForgotPasswordScreen.js`
+
+## Melhoria 3 — Preservar dados ao abrir o leitor de código de barras
+Ao navegar para a tela do leitor de código de barras, os dados já preenchidos
+(nome e preço do produto) agora são preservados ao retornar para a tela Home.
+
+**Arquivos alterados:**
+* `src/screens/HomeScreen.js`
+* `src/screens/BarcodeScannerScreen.js`
+
+## Melhoria 4 — Rolagem da tela em dispositivos menores
+Substituída a estrutura de rolagem da tela Home por `ScrollView` + `FlatList` com
+`scrollEnabled={false}`, garantindo que todo o conteúdo seja acessível em telas menores.
+
+**Arquivo alterado:** `src/screens/HomeScreen.js`
+
+---
+
 # Conexão
 
 const firebaseConfig = { 

@@ -1,17 +1,5 @@
 # 📱 FIAP — React Native (Expo)
 
-## Aula: Login + Navegação
-
-Este projeto foi desenvolvido em aula com o objetivo de ensinar os conceitos fundamentais de **React Native com Expo**, focando em:
-
-* Criação de projeto
-* Organização de pastas
-* Construção de telas
-* Navegação entre telas
-* Componentização básica
-
----
-
 # 🎯 Objetivo
 
 Construir uma aplicação simples contendo:
@@ -21,9 +9,9 @@ Construir uma aplicação simples contendo:
 * Tela de Recuperação de Senha
 * Tela Home
 * Navegação entre telas (Stack)
+* Tela de cadastro de produtos
 
-> ⚠️ Este projeto NÃO possui backend.
-> O foco é **layout + navegação**.
+> ⚠️ O Back-End utilizado no projeto é o Firebase
 
 ---
 
